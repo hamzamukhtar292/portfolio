@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import emailjs from "@emailjs/browser";
 import { IconButton, Snackbar, SnackbarContent } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
@@ -50,7 +51,7 @@ function Contacts() {
             process.env.REACT_APP_YOUR_PUBLIC_KEY
           )
           .then(
-            (result) => {
+            () => {
               console.log("success");
               setSuccess(true);
               setErrMsg("");

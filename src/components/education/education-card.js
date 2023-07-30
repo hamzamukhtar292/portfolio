@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Image from "next/image";
 import React, { useContext } from "react";
 import Fade from "react-reveal/Fade";

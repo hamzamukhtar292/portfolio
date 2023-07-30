@@ -1,5 +1,6 @@
-import { useEffect } from 'react';
-import { withRouter } from 'react-router-dom';
+/* eslint-disable react/prop-types */
+import { useEffect } from "react";
+import { withRouter } from "react-router-dom";
 
 function ScrollToTop({ history }) {
   useEffect(() => {
@@ -8,10 +9,10 @@ function ScrollToTop({ history }) {
     });
     return () => {
       unlisten();
-    }
+    };
   });
 
-  return (null);
+  return null;
 }
 
 export default withRouter(ScrollToTop);

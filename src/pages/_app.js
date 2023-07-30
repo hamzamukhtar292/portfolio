@@ -1,6 +1,7 @@
-import React from 'react';
-import ThemeContextProvider from '../contexts/theme-context';
-import '../styles/globals.css';
+/* eslint-disable react/prop-types */
+import React from "react";
+import ThemeContextProvider from "../contexts/theme-context";
+import "../styles/globals.css";
 
 const App = ({ Component, pageProps }) => {
   return (
