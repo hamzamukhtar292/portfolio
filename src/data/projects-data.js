@@ -1,8 +1,8 @@
 // import eight from "../assets/svg/projects/eight.svg";
 import five from "../assets/svg/projects/five.svg";
 import four from "../assets/svg/projects/four.svg";
-// import one from "../assets/svg/projects/one.svg";
-// import seven from "../assets/svg/projects/seven.svg";
+import NEESMA from "../assets/svg/projects/NEESMA.jpg";
+import reb9 from "../assets/svg/projects/reb9.webp";
 // import six from "../assets/svg/projects/six.svg";
 // import three from "../assets/svg/projects/three.svg";
 // import two from "../assets/svg/projects/two.svg";
@@ -10,23 +10,23 @@ import four from "../assets/svg/projects/four.svg";
 export const projectsData = [
   {
     id: 1,
-    projectName: "Ayla Networks",
+    projectName: "Nesma Airlines",
     projectDesc:
-      "This project about Simplifying the Development of Smart Home & IoT Solutions.",
-    tags: ["React", "SAAS", "React Bootstrap"],
+      "As from the name this projects to airline, developed with a blend of HTML, SAAS, and JavaScript. Enjoy a user-friendly interface, responsive design",
+    tags: ["Html", "SAAS", "React JavaScript"],
     code: "",
-    demo: "",
-    image: "",
+    demo: "https://www.nesmaairlines.com/",
+    image: NEESMA,
   },
   {
     id: 2,
-    projectName: "Jewelry Niche",
+    projectName: "Bridge 9",
     projectDesc:
-      "This project is a Jewelry shop, Customer can be buy product and manage them and make payment.",
-    tags: ["React", "Express", "Material Ui"],
+      "The website is buying and selling of second hand phone devices. I have developed admin panel for mobile repairing and managing of stock information related to devices and spare parts, also related to purchase and sale of new mobile devices.",
+    tags: ["React", "Express", "Material Ui", "Tailwind", "Mongodb"],
     code: "",
-    demo: "",
-    image: "",
+    demo: "https://bridge9.fi/",
+    image: reb9,
   },
   {
     id: 3,
