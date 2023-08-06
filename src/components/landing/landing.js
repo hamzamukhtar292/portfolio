@@ -78,7 +78,7 @@ function Landing() {
           style={{ backgroundColor: theme.secondary }}
         >
           <div className={styles.lcrContent} style={{ color: theme.tertiary }}>
-            {/* <h6 style={{ color: theme.primary }}>{headerData.title}</h6> */}
+            <h6 style={{ color: theme.primary }}>{headerData.title}</h6>
             <h1>{headerData.name}</h1>
             <Typed
               strings={[

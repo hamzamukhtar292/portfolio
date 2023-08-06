@@ -2,9 +2,7 @@ export const headerData = {
   name: "HAMZA MUKHTAR",
   title: "Hello! I am",
   desciption:
-    "Hello! I am HAMZA MUKHTAR, a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. ",
-  image: "https://i.ibb.co/ZmdNH6x/abu-said.jpg",
-  imagebw: "https://i.ibb.co/Cw2Xp90/abu-said-bw.jpg",
+    "Welcome to my portfolio website! I'm Hamza mukhtar, a passionate full stack developer with a knack for crafting elegant and robust web solutions. My journey in the world of web development has been a thrilling adventure, and I'm excited to share my skills and projects with you.",
   resumePdf:
-    "https://docs.google.com/document/d/1MkkoRX98FS47CaEyeodyPzi4OkW8SH7Gv55f4MQkHV8/",
+    "https://drive.google.com/file/d/1XV6AJ4580VidiewmYLdosla03aRVk0vW/view?usp=drive_link",
 };

@@ -5,14 +5,7 @@ import CloseIcon from "@material-ui/icons/Close";
 import Image from "next/image";
 import React, { useContext, useRef, useState } from "react";
 import { AiOutlineCheckCircle, AiOutlineSend } from "react-icons/ai";
-import {
-  FaFacebook,
-  FaGithub,
-  FaLinkedinIn,
-  FaMediumM,
-  FaStackOverflow,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { FiAtSign, FiPhone } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import isEmail from "validator/lib/isEmail";
@@ -301,33 +294,6 @@ function Contacts() {
                 </a>
               )}
 
-              {socialsData.medium && (
-                <a
-                  href={socialsData.medium}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-[45px] h-[45px] rounded-[50%] flex 
-                                    items-center justify-center text-xl transition 
-                                    ease-in-out text-[#F6F6F2] bg-[#6FB3B8] 
-                                    hover:bg-[#BADFE7] hover:text-[#000000]"
-                >
-                  <FaMediumM aria-label="Medium" />
-                </a>
-              )}
-
-              {socialsData.stackOverflow && (
-                <a
-                  href={socialsData.stackOverflow}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-[45px] h-[45px] rounded-[50%] flex 
-                                    items-center justify-center text-xl transition 
-                                    ease-in-out text-[#F6F6F2] bg-[#6FB3B8] 
-                                    hover:bg-[#BADFE7] hover:text-[#000000]"
-                >
-                  <FaStackOverflow aria-label="Stack Overflow" />
-                </a>
-              )}
               {socialsData.facebook && (
                 <a
                   href={socialsData.facebook}

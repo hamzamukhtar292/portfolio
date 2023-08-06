@@ -1,8 +1,8 @@
 export const aboutData = {
   title: "Who I am",
   description1:
-    "My name is HAMZA MUKHTAR. I'm a web designer and developer based in Dhaka, Bangladesh.",
+    "My name is HAMZA MUKHTAR. I'm a web designer and developer based in Gujrat, Pakistan.",
   description2:
-    "I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. Love almost all the stacks of Software Engineering. My current stack includes Nodejs, Nestjs, React, NextJs, Redux, Bootstrap, Ant Design, Material UI, MongoDB, Mysql, PostgreSQL, Firebase, Cloudinary, etc.",
+    "I specialize in building web applications with cutting-edge technologies. My expertise spans across the entire development stack, from front-end user interfaces to back-end server logic. I love to dive deep into complex challenges and find innovative solutions that deliver exceptional user experiences. My current stack includes Typescript, Nodejs, React, React Native, NextJs, Tailwind css, Bootstrap, Material UI, MongoDB, Mysql, PostgreSQL, Firebase, Cloudinary, AWS, Stripe etc.",
   image: 1,
 };
